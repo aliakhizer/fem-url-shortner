@@ -11,7 +11,7 @@ export default function Button({ children, rounded, variant, handleClick }) {
   return (
     <button
       onClick={handleClick}
-      className={`py-1.5 px-6 font-bold capitalize rounded border 
+      className={`py-1.5 px-6 w-full font-bold capitalize rounded border 
         ${rounded ? "rounded-full" : null} 
       ${getButtonVariant(variant)}
       

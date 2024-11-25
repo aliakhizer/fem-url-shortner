@@ -28,6 +28,9 @@ export default {
         medium: 500,
         bold: 700,
       },
+      backgroundImage: {
+        "boost-desktop": "url('/images/bg-boost-desktop.svg')",
+      },
     },
   },
   plugins: [],

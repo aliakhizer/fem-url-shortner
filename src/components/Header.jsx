@@ -15,7 +15,7 @@ export default function Header() {
       <div className="flex items-center gap-8">
         <Logo />
         <nav>
-          <ul className="md:flex font-medium capitalize text-base text-neutral-grayishViolet hidden items-center gap-4">
+          <ul className=" md:flex font-medium capitalize text-base text-neutral-grayishViolet hidden items-center gap-4">
             <li>
               <a
                 href="#"
