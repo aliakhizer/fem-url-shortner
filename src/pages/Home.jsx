@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import ShorterLink from "../components/ShorterLink";
 import AdvanceDashboard from "../components/AdvanceDashboard";
 import LinkBoost from "../components/LinkBoost ";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ShorterLink />
       <AdvanceDashboard />
       <LinkBoost />
+      <Footer />
     </>
   );
 }
