@@ -1,5 +1,4 @@
 import React from "react";
-// import BrandLogo from "./icons/BrandLogo";
 
 export default function Card({ icon: Icon, title: Title }) {
   return (
